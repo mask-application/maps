@@ -1,7 +1,7 @@
 {"maps": [
   {
     "id": "m1_test",
-    "name": "نقشه تستی",
+    "name": "نقشه ی تستی",
     "commenet":"در حال تست",
     "environments": "dev",
     "version": 101
