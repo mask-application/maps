@@ -4,7 +4,14 @@
     "name": "نقشه ی تستی ایران",
     "commenet":"در حال تست ایران",
     "environments": "dev",
-    "version": 102
+    "version": 103
+  }
+  {
+    "id": "m1_iraq",
+    "name": "نقشه ی تستی عراق",
+    "commenet":"در حال تست عراق",
+    "environments": "dev",
+    "version": 103
   }
   ]
 }
