@@ -1,10 +1,10 @@
 {"maps": [
   {
     "id": "m1_test",
-    "name": "نقشه ی تستی",
-    "commenet":"در حال تست",
+    "name": "نقشه ی تستی ایران",
+    "commenet":"در حال تست ایران",
     "environments": "dev",
-    "version": 101
+    "version": 102
   }
   ]
 }
