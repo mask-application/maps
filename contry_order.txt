@@ -109,10 +109,16 @@ Switzerland
 Austria
 Czech Republic
 Slovakia
-
-
-
-
+Hungary
+Romania
+Moldova
+Slovenia
+Croatia
+Republic of Serbia
+Bosnia and Herzegovina
+Bulgaria
+Greece
+Malta
 
 
 
