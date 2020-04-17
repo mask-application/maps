@@ -50,10 +50,27 @@ Democratic Republic of the Congo
 Angola
 Namibia
 Botswana
-
-
-
-
-
-
+Lesotho
+Zimbabwe
+Zambia
+Mozambique
+Malawi
+United Republic of Tanzania
+Uganda
+Rwanda
+Burundi
+Republic of Congo
+Gabon
+Central African Republic
+Chad
+Cameroon
+Nigeria
+Niger
+Mali
+Mauritania
+Morocco
+Benin
+Burkina Faso
+Togo
+Ghana
 
