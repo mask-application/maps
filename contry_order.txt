@@ -73,4 +73,47 @@ Benin
 Burkina Faso
 Togo
 Ghana
+Ivory Coast
+Liberia
+Guinea
+Sierra Leone
+Senegal
+Guinea Bissau
+Gambia
+Swaziland
+Equatorial Guinea
+Azerbaijan
+Armenia
+Georgia
+Ukraine
+Belarus
+Latvia
+Estonia
+Finland
+Norway
+Sweden
+Poland
+Germany
+France
+Spain
+Portugal
+United Kingdom
+Ireland
+Denmark
+Netherlands
+Belgium
+Luxembourg
+
+
+
+
+
+
+
+
+
+
+
+
+
 
