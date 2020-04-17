@@ -123,3 +123,39 @@ Montenegro
 Kosovo
 Albania
 Macedonia
+Western Sahara
+Falkland Islands
+Uruguay
+Paraguay
+Bolivia
+Peru
+Ecuador
+Colombia
+Venezuela
+Guyana
+Suriname
+Panama
+Costa Rica
+Nicaragua
+Honduras
+El Salvador
+Guatemala
+Belize
+Cuba
+Jamaica
+The Bahamas
+Haiti
+Dominican Republic
+Puerto Rico
+Trinidad and Tobago
+New Zealand
+Papua New Guinea
+Indonesia
+Malaysia
+Philippines
+
+
+
+
+
+
