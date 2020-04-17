@@ -132,6 +132,24 @@ def makeCSVs():
         f.close()
 
 
-for f in os.listdir(CSVsPath):
-    drawBorder(f)
-    print(f)
+def findUncolored():
+    contry = '../contry_order.txt'
+    f = open(contry, 'r')
+    lines = f.readlines()
+
+    cnt = 1
+    FILES = os.listdir(CSVsPath)
+    for cntry in FILES:
+        if not lines.__contains__(cntry.replace(".csv","")+"\n"):
+            print(cnt, cntry)
+            cnt+=1
+
+
+
+
+
+
+findUncolored()
+# for f in os.listdir(CSVsPath):
+#     drawBorder(f)
+#     print(f)
