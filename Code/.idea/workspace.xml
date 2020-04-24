@@ -127,7 +127,8 @@
       <workItem from="1584858710969" duration="19417000" />
       <workItem from="1585065945051" duration="570000" />
       <workItem from="1586584005116" duration="19841000" />
-      <workItem from="1587103533215" duration="3077000" />
+      <workItem from="1587103533215" duration="3806000" />
+      <workItem from="1587747903938" duration="3122000" />
     </task>
     <servers />
   </component>
@@ -139,7 +140,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -185,30 +188,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/map.py</url>
-          <line>142</line>
-          <option name="timeStamp" value="43" />
+          <line>156</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="cors" language="Python" />
-        <watch expression="sp" language="Python" />
-        <watch expression="cor" language="Python" />
-        <watch expression="prop['ADMIN']" language="Python" />
-        <watch expression="prop['ADMIN']" language="Python" />
-        <watch expression="sp[2:]" language="Python" />
-        <watch expression="max(sp[2:])" language="Python" />
-        <watch expression="max(np.array(sp[2:],dtype=float))" language="Python" />
-        <watch expression="min(np.array(sp[2:],dtype=float))" language="Python" />
-        <watch expression="min(sp[2:])" language="Python" />
-        <watch expression="lines.__contains__(cntry.replace(&quot;.csv&quot;,&quot;&quot;)+&quot;\n&quot;)" language="Python" />
+        <watch expression="len(spl)" language="Python" />
+        <watch expression="len(range(2,len(sp),1))" language="Python" />
+        <watch expression="sp[-2]" language="Python" />
+        <watch expression="np.array(sp[1:],dtype=float)[-1]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Code$makejsoncode.coverage" NAME="makejsoncode Coverage Results" MODIFIED="1586585337348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Code$map.coverage" NAME="map Coverage Results" MODIFIED="1587116756190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$map.coverage" NAME="map Coverage Results" MODIFIED="1587749845309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Code$json.coverage" NAME="json Coverage Results" MODIFIED="1584880524325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

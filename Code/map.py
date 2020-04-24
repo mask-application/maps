@@ -145,11 +145,32 @@ def findUncolored():
             cnt+=1
 
 
+def make20():
+    f = open("../m1_test.0.16.csv", 'r')
+    fnew = open("../m1_test20.0.16.csv", 'w')
+    lines = f.readlines()
+    cnt = 0
+    for line in lines:
+        cnt+=1
+        spl = line.split(",")
+        print(len(spl), cnt )
+        while(len(spl)>42):
+            new_line = spl[0] + "," + spl[1]
+            cors = np.array(spl[2:],dtype=float)
+            for i in range(0,len(cors)-2,2):
+                new_line += ("," + str((cors[i] + cors[i+2]) / 2))
+                new_line += ("," + str((cors[i+1] + cors[i+3]) / 2))
+            spl = new_line.split(",")
+        new_line+="\n"
+        fnew.write(new_line)
+        fnew.flush()
+
+    fnew.close()
+    f.close()
 
 
-
-
-findUncolored()
+make20()
+# findUncolored()
 # for f in os.listdir(CSVsPath):
 #     drawBorder(f)
 #     print(f)
